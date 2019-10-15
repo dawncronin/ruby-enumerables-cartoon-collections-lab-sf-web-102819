@@ -6,7 +6,6 @@ def roll_call_dwarves(array)# code an argument here
 end
 
 def summon_captain_planetI(array)# code an argument here
-  # Your code here
  map = array.map do |ele|
     (ele[0].capitalize + ele[1..-1] + "!")
   end
